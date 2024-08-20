@@ -1,0 +1,9 @@
+cpp_library:
+  name: clang_format
+  sources: clang_format.cpp
+  headers: clang_format.hpp
+  libs:
+    /bee/file_path
+    /bee/or_error
+    /bee/sub_process
+
